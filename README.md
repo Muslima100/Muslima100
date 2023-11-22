@@ -1,5 +1,6 @@
+
 Assalomu alaykum 
 Hurmatli talabalar 
-sizlarni tabriklaymiz 
+sizni tabriklaymiz 
 siz sessiyalardan a‘lo darajada
 o‘tdingiz🥳🥳🥳🥳
