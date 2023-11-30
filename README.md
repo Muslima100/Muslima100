@@ -1,18 +1,23 @@
-
-import math
-
-def salom(a,h):
-    c=a/2
-    b=math.sqrt(math.pow(c,2)+math.pow(h,2))
-    p=a+b+h
-    print("Uchburchak prematri:",p)
-    
-a=float(input("sonni kiriting"))
-h=float(input("sonni kiriting"))
-salom(a,h)
-a1=float(input("sonni kiriting"))
-h1=float(input("sonni kiriting"))
-salom(a1,h1)
-a2=float(input("sonni kiriting"))
-h2=float(input("sonni kiriting"))
-salom(a2,h2)
+from math import * 
+def pramida (a,b):
+    return (a+b)
+def gpetenuza (a,b):
+    return (sqrt(a**2+b**2))
+def aylana(r):
+    return (pi*r**2)
+def turtP(a,b):
+    return (2**(a+b))
+def turtS(a,b):
+    return (a*b)
+def katet(b,c):
+    return (sqrt(b**2-c**2))
+def salom (a):
+    return (a)
+def romb (a):
+    return (a**2)
+def paralellipeped (a,b,c):
+    return (a+b+c)
+def salom1(a,b):
+    return (a+b)
+def salom2(a,b,c,d):
+	return (a+b+c+d)
