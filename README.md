@@ -21,3 +21,18 @@ def salom1(a,b):
     return (a+b)
 def salom2(a,b,c,d):
 	return (a+b+c+d)
+
+
+
+import Si
+print (Si.pramida(5,8))
+print (Si.gpetenuza(3,5))
+print (Si.aylana(5))
+print (Si.turtP(2,8))
+print (Si.turtS(5,8))
+print (Si.katet(5,4))
+print (Si.salom("salom"))
+print (Si.paralellipeped(34,67,89))
+print (Si.romb(76))
+print (Si.salom1("assalumu ","alaykum"))
+print(Si.salom2("Xush","kelibsiz","aziz yurtimizga!!!"))
