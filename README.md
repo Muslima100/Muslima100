@@ -1,26 +1,18 @@
-import tkinter as tk
-oyna=tk.Tk()
-oyna.geometry("500x500")
-oyna.title('sonlar kopaytmasi')
-bir=tk.Label(text="Birinchi sonni kiriting")
-bir.pack()
-entry1=tk.Entry(oyna)
-entry1.pack()
-ikki=tk.Label(text="ikkinchi sonni kiriting")
-ikki.pack()
-entry2=tk.Entry(oyna)
-entry2.pack(pady=10)
-def hisobla():
-    qiymat1=float(entry1.get())
-    qiymat2=float(entry2.get())
-    result=qiymat1*qiymat2
-    natija.config(text="sum:"+str(result))
-natija=tk.Label(oyna,text="Result:")
-natija.pack()
-button=tk.Button(oyna,text="Hisobla", width=10,background="green",command=hisobla)
-button.pack()
-insho=tk.Label(text=" kopaytma ",
-foreground="green", background="yellow",width=10, height=2)
-oyna.configure(bg="pink")
-insho.pack()
-oyna.mainloop()
+
+import math
+
+def salom(a,h):
+    c=a/2
+    b=math.sqrt(math.pow(c,2)+math.pow(h,2))
+    p=a+b+h
+    print("Uchburchak prematri:",p)
+    
+a=float(input("sonni kiriting"))
+h=float(input("sonni kiriting"))
+salom(a,h)
+a1=float(input("sonni kiriting"))
+h1=float(input("sonni kiriting"))
+salom(a1,h1)
+a2=float(input("sonni kiriting"))
+h2=float(input("sonni kiriting"))
+salom(a2,h2)
